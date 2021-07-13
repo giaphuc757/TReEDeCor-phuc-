@@ -1,0 +1,154 @@
+﻿
+@model List<Giohang>
+@{
+    ViewBag.Title = "Dat Hang";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 15%;
+        border-radius: 10px;
+        border-bottom: none;
+       
+    }
+
+    td {
+        text-align: left;
+        padding: 5px;
+    }
+
+    th {
+        text-align: center;
+        padding: 13px;
+        font-size: 12px;
+    }
+
+    tr {
+        border-bottom: groove;
+    }
+    input[type="submit"]:hover {
+        background: #000;
+    }
+
+    input[type="submit"] {
+        border-radius: 20px;
+        background: black;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-weight: 200;
+        cursor: pointer;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    }
+    a.buttonlink {
+        color: white;
+        text-decoration: none;
+    } 
+    
+    body{
+
+        background-image:url("/Image/Sofa-banner3.jpg");
+        background-attachment:fixed;
+    }
+
+</style>
+<body>
+    <div class="aaaa" style="padding: 20px; text-align: left; padding-left: 10px; color: white; font-family: Courier New, Courier, monospace;">
+        <div class="row">
+            <div class="col-12"><h1>ĐẶT HÀNG </h1> </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-8 " style="padding-top:50px">
+
+            <table>
+                <tr style=" background-color: black; font-weight: bold ; color:white;">
+                    <th>Ảnh</th>
+                    <th>Mã SP</th>
+                    <th>Tên SP</th>
+                    <th>Số Lượng</th>
+                    <th>Đơn Gía</th>
+                    <th>Thành Tiền </th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr style="text-align:center; font-weight:bold">
+                        <td>@item.idsp</td>
+                        <td>@item.tensanpham</td>
+                        <td><img src="~/Image/IMG-PRODUCT/@item.anh" width="200px" height="200px" /></td>
+                        @using (Html.BeginForm("Capnhatgiohang", "Giohang", new { id = item.idsp }))
+                        {
+                            <td>  @item.soluong </td>
+                            <td>@String.Format("{0:0,0}", item.dongia)</td>
+                            <td>@String.Format("{0:0,0}", item.tongtien)</td>
+                        }
+                    </tr>
+                }
+                <tr style="font-weight:bold; text-align:center">
+                    <td colspan="4" style="text-align:right; background-color:black;color:white;"> So luong: @ViewBag.Tongsoluong</td>
+                    <td colspan="4" style="text-align:right; background-color:black;color:white;"> Tong tien: @String.Format("{0:0,0}", ViewBag.Tongtien) VND</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="col-4">
+            <h2 style="text-align: left; font-family: Courier New, Courier, monospace;color:white"> THÔNG TIN KHÁCH HÀNG</h2>
+            <div class="ttkh" style="background-color: white; color:black; border: solid; font-weight:bold;text-align:left;
+       border-block-color: black; border-radius: 15px; padding: 55px;padding-bottom:160px;padding-right:15px;">
+                @using TReEDeCor.Models
+
+                @{
+                    NGUOIDUNG kh = (NGUOIDUNG)Session["Taikhoan"];
+                }
+                <table>
+                    @using (Html.BeginForm())
+                    {
+                        @Html.ValidationSummary(true)
+                        <tr style="border:none ;padding:5px;width:80px;">
+                            <td> Họ&Tên: </td>
+                            <td> @kh.HoTen </td>
+                        </tr>
+                        <tr style="height: 40px; border: none">
+                            <td> Địa chỉ: </td>
+                            <td> @kh.Diachi</td>
+                        </tr>
+                        <tr style="height: 40px; border: none">
+                            <td> SDT: </td>
+                            <td> @kh.Dienthoai</td>
+                        </tr>
+                        <tr style="height: 40px;border: none">
+                            <td>Ngày đặt: </td>
+                            <td> @DateTime.Now.ToShortDateString()</td>
+                        </tr>
+                        <tr style="height: 40px; border: none;">
+                            <td> Ngày giao: </td>
+                            <td> <input type="date" name="Ngaygiao" /></td>
+                        </tr>
+                        <tr style="height:40px">
+                            <td> </td>
+                            <td> <input type="submit" value="Đặt hàng" /></td>
+                        </tr>
+
+
+
+                    }
+
+                </table>
+                <div style="background-color:black; text-align:center;padding:10px;border:groove;
+                                    border-color:darkgray; border-radius:10px;">
+                    @Html.ActionLink("TRỞ VỀ GIỎ HÀNG", "Giohang", "Giohang", new { @class = "buttonlink" })
+                    <i class="fa ti-arrow-right m-l-7" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>

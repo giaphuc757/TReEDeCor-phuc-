@@ -1,0 +1,155 @@
+﻿@using TReEDeCor.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+    <link href="~/MyCSS/cart.css" rel="stylesheet" />
+}
+
+<body>
+    <header id="site-header">
+        <div class="container">
+            <h1>Shopping cart <span>[</span> <em><a href="#" target="_blank">Shopping cart</a></em> <span class="last-span is-open">]</span></h1>
+        </div>
+    </header>
+
+    @*@foreach (var item in Model)*@
+    {
+        <div class="container">
+            <section id="cart">
+                @*<article class="product">
+                    <header>
+                        <a class="remove">
+                            <img src="~/Image/IMG-PRODUCT/@item.anh" alt="anhsp">
+                            <h3>Remove product</h3>
+                        </a>
+                    </header>
+
+                    <div class="content">
+
+                        <h1>@item.tensanpham</h1>
+                        <span> <h3>Mã sản phẩm: </h3> <h4>@item.idsp</h4> </span>
+                        @using (Html.BeginForm("Capnhatgiohang", "Giohang", new { id = item.idsp }))
+                        {
+                           
+                        }
+
+                        <div title="You have selected this product to be shipped in the color yellow." style="top: 0" class="color yellow"></div>
+                        <div style="top: 43px" class="type small">XXL</div>
+                    </div>
+
+                    <footer class="content">
+                        <span class="qt-minus">-</span>
+                        <span class="qt">0</span>
+                        <span class="qt-plus">+</span>
+
+                        <h2 class="full-price">
+                            0€
+                        </h2>
+
+                        <h2 class="price">
+                            0€
+                        </h2>
+                    </footer>
+                </article>*@
+
+                <article class="product">
+                    <header>
+                        <a class="remove">
+                            <img src="~/Image/DMPhroduct/dm4.jpg" alt="">
+
+                            <h3>Remove product</h3>
+                        </a>
+                    </header>
+
+                    <div class="content">
+
+                        <h1>Tên San Phẩm</h1>
+
+                        ...
+                        <div title="You have selected this product to be shipped in the color red." style="top: 0" class="color red"></div>
+                        <div title="You have selected this product to be shipped sized Small." style="top: 43px" class="type small">Small</div>
+                        <footer class="content">
+
+                            <span class="qt-minus">-</span>
+                            <span class="qt">0</span>
+                            <span class="qt-plus">+</span>
+
+                            <h2 class="full-price">
+                                0€
+                            </h2>
+                        </footer>
+                    </div>
+
+                  
+                </article>
+
+                <article class="product">
+                    <header>
+                        <a class="remove">
+                            <img src="~/Image/ban1.jpg" alt="">
+
+                            <h3>Remove product</h3>
+                        </a>
+                    </header>
+
+                    <div class="content">
+
+                        <h1>...</h1>
+
+                        ...
+
+                        <div title="You have selected this product to be shipped in the color blue." style="top: 0" class="color blue"></div>
+                        <div style="top: 43px" class="type small">Large</div>
+                    </div>
+
+                    <footer class="content">
+
+                        <span class="qt-minus">-</span>
+                        <span class="qt">0</span>
+                        <span class="qt-plus">+</span>
+
+                        <h2 class="full-price">
+                            0€
+                        </h2>
+
+                        <h2 class="price">
+                            0€
+                        </h2>
+                    </footer>
+                </article>
+
+            </section>
+
+        </div>
+
+    }
+
+
+
+
+
+
+
+
+
+
+    <footer id="site-footer">
+        <div class="container clearfix">
+
+            <div class="left">
+                <h2 class="subtotal">Subtotal: <span>0</span>€</h2>
+                <h3 class="tax">Taxes (5%): <span>0</span>€</h3>
+                <h3 class="shipping">Shipping: <span>0</span>€</h3>
+            </div>
+
+            <div class="right">
+                <h1 class="total">Total: <span>0</span>€</h1>
+                <a class="btn">Checkout</a>
+            </div>
+
+        </div>
+    </footer>
+    @*<script src="~/Scripts/Cart.js"></script>*@
+
+</body>

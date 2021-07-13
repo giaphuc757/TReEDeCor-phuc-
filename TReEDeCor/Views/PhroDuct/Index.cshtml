@@ -1,0 +1,68 @@
+﻿@model IEnumerable<TReEDeCor.Models.SANPHAM>
+
+@{
+    ViewBag.Title = "Sản phẩm";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+<div class="tinmain">
+    <div class="row">
+        <div class="tin">
+            <h1> TẤT CẢ SẢN PHẨM  </h1>
+            &ensp;
+            &ensp;
+        </div>
+    </div>
+</div>
+<div class="tmain text-center">
+    <h2>_______________________</h2>
+    TReE'S Decor
+    &ensp;
+    &ensp;
+</div>
+<section id="headertop" class="top">
+    <hr width="100%" align="center" />
+    <div class="col-md-6 py-1 text-left">
+
+
+    </div>
+
+    <div class="col-md-6 py-1 text-right">
+
+        <a href=""> <i class=" fas fa-chair">&nbsp;BànĂn</i> </a>
+        &nbsp;
+        <b> |</b>
+        &nbsp;
+        <a href=""> <i class="fas fa-couch"></i>&nbsp;Sopha </a>
+        &nbsp;
+        <b> |</b>
+
+
+    </div>
+</section>
+<div class="splitter"></div>
+<div class="@*container*@ py-2">
+    <div class="row">
+        @foreach (var l in Model)
+        {
+            @*<div class="col-md-3">
+                    <img class="card-img-top img-fluid" src="~/Image/IMG-PRODUCT/@l.AnhSP" />
+                    <div class="card-body">
+
+                        <h5 class="text-center font18">@l.TenSP</h5>
+                        @Html.ActionLink("Xem chi tiết", "Chitietsanpham", new { id = l.MaSP }) |
+                    </div>
+
+                </div>*@
+            <div class="col-md-3 spanimaition text-center">
+                <div class="@*card*@" style="width: 100%;">
+                    <img class="card-img-top img-fluid" src="~/Image/IMG-PRODUCT/@l.AnhSP" />
+                    <div class="card-body">
+                        <h5 class="card-title">@l.TenSP</h5>
+                        <a href="@Url.Action("Chitietsanpham","PhroDuct", new {  id = l.MaSP })" class="btn btn-light btn-outline-dark">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

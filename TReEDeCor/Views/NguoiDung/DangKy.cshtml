@@ -1,0 +1,306 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+
+<div class="tmain text-center">
+    <h2><b>  ĐĂNG KÝ TÀI KHOẢN </b></h2>
+    TReE'S Decor
+    &ensp;
+    &ensp;
+    <h1></h1>
+    &ensp;
+</div>
+@*<table align="center">
+        <h2 style="text-align:center">Đăng Ký Thành Viên</h2>
+        <h4 style="color:red; text-align:center">@ViewBag.ThongBao</h4>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+
+            <tr style="height:40px">
+                <td>Họ và Tên:</td>
+                <td>@Html.TextBox("HoTen") @ViewData["loi1"] </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Tên Đăng Nhập:</td>
+                <td>@Html.TextBox("TenDangNhap") @ViewData["loi2"] @ViewData["loi11"] </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Email:</td>
+                <td>@Html.TextBox("Email") @ViewData["loi3"] @ViewData["loi12"] </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Địa Chỉ:</td>
+                <td>@Html.TextBox("DiaChi") @ViewData["loi4"] </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Số Điện Thoại:</td>
+                <td>@Html.TextBox("SDT") @ViewData["loi7"] </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Ngày Sinh:</td>
+                <td>
+                    <input type="date" name="NgaySinh" required />
+                </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Mật Khẩu:</td>
+                <td>
+                    <input type="password" name="MatKhau" required size="30" />
+                </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Nhập Lại Mật Khẩu:</td>
+                <td>
+                    <input type="password" name="Rematkhau" required size="30" />
+                </td>
+            </tr>
+            <tr style="height:40px">
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng Ký" />
+                </td>
+
+            </tr>
+        }
+    </table>
+        <p style="text-align:center"><a href="https://localhost:44321/nguoidung/dangnhap"><b>Đăng Nhập Tài Khoản</b></a></p>*@
+
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Courier New, Courier, monospace;
+    }
+
+    section-contact {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+        section-contact .img-bg {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            opacity: 0.7;
+        }
+
+
+
+            section-contact .img-bg img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+
+        section-contact .noi-dung {
+            display: flex;
+            position: absolute;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            padding-left: 21%;
+            width: 85%;
+            height: 93%;
+        }
+
+            section-contact .noi-dung .form {
+                width: 100%;
+            }
+
+
+                section-contact .noi-dung .form h2 {
+                    color: #000;
+                    font-weight: 500;
+                    font-size: 2em;
+                    text-transform: uppercase;
+                    margin-bottom: 18px;
+                    border-bottom: 3px solid peru;
+                    display: inline-block;
+                    letter-spacing: 1px;
+                }
+
+                section-contact .noi-dung .form .input-form {
+                    margin-bottom: 20px;
+                }
+
+
+                    section-contact .noi-dung .form .input-form span {
+                        font-size: 20px;
+                        margin-bottom: 5px;
+                        display: inline-block;
+                        color: #000;
+                        letter-spacing: 1px;
+                    }
+
+                    section-contact .noi-dung .form .input-form input {
+                        width: 100%;
+                        padding: 10px 20px;
+                        outline: none;
+                        border: 1px solid #000;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        color: #000;
+                        background: transparent;
+                        border-radius: 30px;
+                    }
+
+                        section-contact .noi-dung .form .input-form input[type="submit"] {
+                            background: peru;
+                            color: #fff;
+                            outline: none;
+                            border: none;
+                            font-weight: 500;
+                            cursor: pointer;
+                            box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+                        }
+
+                            section-contact .noi-dung .form .input-form input[type="submit"]:hover {
+                                background: #000;
+                            }
+
+                section-contact .noi-dung .form .nho-dang-nhap {
+                    margin-bottom: 10px;
+                    color: #000;
+                    font-size: 20px;
+                }
+
+                section-contact .noi-dung .form .input-form p {
+                    color: #000;
+                }
+
+                    section-contact .noi-dung .form .input-form p a {
+                        color: peru;
+                    }
+
+                section-contact .noi-dung .form h3 {
+                    color: #000;
+                    text-align: center;
+                    margin: 80px 0 10px;
+                    font-weight: 500;
+                }
+
+                section-contact .noi-dung .form .icon-dang-nhap {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    section-contact .noi-dung .form .icon-dang-nhap li {
+                        list-style: none;
+                        cursor: pointer;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li:nth-child(1) {
+                            color: #3b5999;
+                        }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li:nth-child(2) {
+                            color: #dd4b39;
+                        }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li:nth-child(3) {
+                            color: #55acee;
+                        }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li i {
+                            font-size: 28px;
+                        }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <section-contact>
+
+        <div class="img-bg">
+            <img src="~/Image/banner1.jpg"
+                 alt="Hình Ảnh Minh Họa">
+        </div>
+
+        <div class="noi-dung">
+            @*<div class="form">*@
+            @*<h2> <b>Đăng ký</b></h2>*@
+            <div class="row">
+
+                <form action="">
+                    <div class="col-6">
+                        <div class="form">
+                            <div class="input-form ">
+                                <span><b>Họ & Tên </b></span>
+                                <input type="text" name="HoTen">
+                                @ViewData["loi1"]
+                            </div>
+                            <div class="input-form">
+                                <span><b>Ngày Sinh</b></span>
+                                <input type="date" name="NgaySinh">
+
+                            </div>
+
+
+                            <div class="input-form">
+                                <span><b>Nhập Gmail</b></span>
+                                <input type="email" name="Email">@ViewData["loi3"]
+                            </div>
+
+                            <div class="input-form">
+                                <span><b>Nhập SĐT</b></span>
+                                <input type="text" name="SDT" min="10" max="11"> @ViewData["loi7"]
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form">
+                            <div class="input-form">
+                                <span><b>Địa chỉ </b></span>
+                                <input type="text" name="DiaChi" min="10" max="11">
+                                @ViewData["loi4"]
+                            </div>
+                            <div class="input-form">
+                                <span><b>Tên Đăng Nhập</b></span>
+                                <input type="text" name="TenDangNhap">
+                                @ViewData["loi2"] @ViewData["loi11"]
+                            </div>
+                            <div class="input-form">
+                                <span><b>Mật Khẩu</b></span>
+                                <input type="password" name="MatKhau">
+                            </div>
+                            <div class="input-form">
+                                <span><b>Nhập lại Mật Khẩu</b></span>
+                                <input type="password" name="RematKhau">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="input-form">
+                            <input type="submit" value="Đăng ký">
+                        </div>
+                        <div class="input-form">
+                            <p><i>Bạn Đã Có Tài Khoản?</i> <a href="@Url.Action("Dangnhap", "NguoiDung")"><b>Đăng Nhập</b></a></p>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            @*</div>*@
+        </div>
+
+    </section-contact>
+}
+

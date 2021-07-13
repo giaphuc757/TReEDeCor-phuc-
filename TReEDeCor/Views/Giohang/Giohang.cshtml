@@ -1,0 +1,219 @@
+﻿@using TReEDeCor.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "Gio Hang";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 15%;
+       
+        border-radius: 10px;
+        border-bottom: none;
+    }
+
+    td {
+        text-align: center;
+        padding: 5px;
+    }
+
+    th {
+        text-align: center;
+        padding: 13px;
+        font-size: 12px;
+    }
+
+    tr {
+        border-bottom: groove;
+      
+    }
+
+       /* tr:nth-child(even) {
+            background-color: lightyellow;
+        }*/
+
+    input[type="submit"]:hover {
+        background: #000;
+    }
+
+    input[type="submit"] {
+        border-radius: 20px;
+        background: black;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-weight: 200;
+        cursor: pointer;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    }
+    .bbbb{
+       
+        background-color:none;
+    }
+    .aaaa{
+        padding:20px;
+    }
+    .aaaa h2{
+        color:black;
+        
+        background-color:none;
+       
+        text-align:center;
+    }
+
+
+    .ttgh{
+        background-color:white;
+        text-decoration:none;
+        color:white;
+        border:solid;
+       border-block-color:black;
+        border-radius:15px;
+        padding:60px;
+    }
+
+    a.buttonlink{
+        color:white;
+        text-decoration:none;
+
+    }  
+
+  
+</style>
+
+<body>
+    <div class="aaaa">
+        <div class="row">
+            <div class="col-12"><h2>GIỎ HÀNG </h2> </div>
+           
+        </div>
+       
+       
+    </div>
+    <div class="row">
+        <div class="col-9">
+            <table>
+                <tr style=" background-color: black; font-weight: bold ; color:white;  ">
+                    <th>Mã SP</th>
+                    <th>Tên SP</th>
+                    <th>Ảnh</th>
+                    <th>Số Lượng</th>
+                    <th>Đơn Giá</th>
+                    <th>Thành Tiền</th>
+
+                    <td width="70px"></td>
+                    <td width="70px"></td>
+
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr font-weight:bold">
+                        <td>@item.idsp</td>
+                        <td>@item.tensanpham</td>
+                        <td><a href="@Url.Action("Chitietsanpham", "PhroDuct", new { id = item.idsp })"><img src="~/Image/IMG-PRODUCT/@item.anh" width="150px" height="150px" /></a></td>
+                        @using (Html.BeginForm("Capnhatgiohang", "Giohang", new { id = item.idsp }))
+                        {
+                            <td>
+                                <input type="number" min="1" name="txtSoluong" value="@item.soluong" style="background-color:white ; border-color:darkgray; text-align:center;border-radius:20px;" />
+                            </td>
+
+                            <td>@String.Format("{0:0,0}", item.dongia)</td>
+                            <td>@String.Format("{0:0,0}", item.tongtien)</td>
+
+                            <td> <a href="@Url.Action("Xoagiohang", "Giohang", new { id = item.idsp }) " style="text-decoration:none;color:black;"><b>x</b></a></td>
+                            <td> <input type="submit" value="Cập nhập" /></td>
+                        }
+                    </tr>
+
+                }
+                
+                <tr>
+                    <td colspan="4" style="text-align:right; background-color:black;color:white;"> <b>So luong: </b> @ViewBag.Tongsoluong</td>
+                    <td colspan="5"style="text-align: right; background-color: black; color: white;"> <b> Tong tien: </b>@String.Format("{0:0,0}", ViewBag.Tongtien) VND</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="col-3">
+            <div class="ttgh ">
+
+                <div style="background-color:black; text-align:center;padding:10px;border:groove;
+                                    border-color:darkgray; border-radius:10px;">
+
+                    @Html.ActionLink("XÓA TẤT CẢ ", "Xoatatca", "Giohang", new { @class = "buttonlink" })
+                    <i class="fa ti-arrow-right m-l-7" aria-hidden="true"></i>
+                </div>
+
+
+                <hr width="100%" align="center" />
+
+
+                <div style="background-color:black; text-align:center;padding:10px;border:groove;
+                                    border-color:darkgray; border-radius:10px;">
+                    @Html.ActionLink("ĐẶT HÀNG", "Dathang", "Giohang", new { @class = "buttonlink" })
+                </div>
+
+               
+
+            </div>
+        </div>
+    </div>
+    <div class="bbb">
+        <h1>
+            <hr />
+        </h1>
+   
+    </div>
+</body>
+
+@*<h2 style="text-align:center">THONG TIN GIO HANG</h2>
+    <table align="center" border="1">
+        <tr style="text-align:center; font-weight: bold">
+            <td>Ma San Pham</td>
+            <td>Ten San Pham</td>
+            <td>Anh San Pham</td>
+            <td>So Luong</td>
+            <td>Don Gia</td>
+            <td>Thanh Tien</td>
+            <td width="70px"></td>
+            <td width="70px"></td>
+            <td width="70px"></td>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr style="text-align:center; font-weight:bold">
+                <td>@item.idsp</td>
+                <td>@item.tensanpham</td>
+                <td><img src="~/Image/IMG-PRODUCT/@item.anh" width="200px" height="200px"/></td>
+                @using (Html.BeginForm("Capnhatgiohang","Giohang", new { id = item.idsp }))
+                    {
+                        <td>
+                            <input type="number" min="1" name="txtSoluong" value="@item.soluong" style="background-color:wheat" />
+                        </td>
+
+                <td>@String.Format("{0:0,0}", item.dongia)</td>
+                <td>@String.Format("{0:0,0}", item.tongtien)</td>
+                <td> <a href="@Url.Action("Chitietsanpham", "PhroDuct", new { id = item.idsp })">Chi tiết</a></td>
+                <td> <a href="@Url.Action("Xoagiohang", "Giohang", new { id = item.idsp })">Xóa</a></td>
+                <td> <input type="submit" value="Cập nhập"/></td>
+                }
+            </tr>
+        }
+        <tr style="font-weight:bold; text-align:right; color:peru">
+            <td colspan="4"> So luong: @ViewBag.Tongsoluong</td>
+            <td colspan="5"> Tong tien: @String.Format("{0:0,0}", ViewBag.Tongtien) VND</td>
+        </tr>
+        <tr style="font-weight:bold">
+            <td colspan="9">
+                @Html.ActionLink("Xóa tất cả", "Xoatatca", "Giohang")
+            </td>
+        </tr>
+        <tr>
+            <td colspan="9">@Html.ActionLink("ĐẶT HÀNG", "Dathang", "Giohang")</td>
+        </tr>
+    </table>*@
+

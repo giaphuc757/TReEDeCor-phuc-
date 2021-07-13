@@ -1,0 +1,33 @@
+﻿@model TReEDeCor.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Chitietsanpham";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+
+
+
+<div class="container ">
+
+    <div class="row">
+
+        <div class="col-md-7">
+            <img src="~/Image/IMG-PRODUCT/@Html.DisplayFor(model => model.AnhSP)" width="100%" />
+        </div>
+        <div class="col-md">
+            <div>
+                <h2>@Model.TenSP</h2>
+                <p><span>Số lượng: </span>@Model.Soluongton</p>
+                <p><span>Mô tả: </span>@Model.Mota</p>
+                <p><span>Giá bán: </span>@Model.Giaban</p>
+            </div>
+            <div>
+                <div class="datmua">
+                    <a href="@Url.Action("Themgiohang","Giohang", new {@id= @Model.MaSP, @strURL=Request.Url.ToString() })" class="btn btn-light btn-outline-dark">Thêm vào giỏ hàng</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

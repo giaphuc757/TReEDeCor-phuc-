@@ -1,0 +1,26 @@
+﻿@model IEnumerable<TReEDeCor.Models.SLIDER>
+
+
+@foreach (var d in Model)
+{
+    if (@d.LoaiSlider == "DMSP")
+    {
+        <div class="na text-center">
+            <div class="col-md">
+                <img src="~/Image/DMEND/@d.AnhSP" class="img-fluid" />
+                <div class="name">
+                    <a href="">
+                        <h1>@d.TenSP</h1>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">@d.Noidung1</h5>
+                        <h5 class="card-title text-center">@d.Noidung2</h5>
+                        <h5 class="card-title text-center">@d.Noidung3</h5>
+                    </div>
+                    <h1>@d.CapSP</h1>
+                    <a href="@Url.Action("SPtheoloai","User", new { id = d.Vitri })" class="btn btn-light btn-outline-dark">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+}

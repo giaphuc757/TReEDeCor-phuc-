@@ -1,0 +1,230 @@
+﻿
+@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Tahoma, sans-serif;
+    }
+
+    section-contact {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+        section-contact .img-bg {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            opacity: 0.84;
+        }
+
+
+
+            section-contact .img-bg img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+
+        section-contact .noi-dung {
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            padding-left: 21%;
+            width: 85%;
+            height: 100%;
+        }
+
+            section-contact .noi-dung .form {
+                width: 50%;
+            }
+
+
+                section-contact .noi-dung .form h2 {
+                    color: #607d8b;
+                    font-weight: 500;
+                    font-size: 2em;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    border-bottom: 4px solid peru;
+                    display: inline-block;
+                    letter-spacing: 1px;
+                }
+
+                section-contact .noi-dung .form .input-form {
+                    margin-bottom: 20px;
+                }
+
+
+                    section-contact .noi-dung .form .input-form span {
+                        font-size: 18px;
+                        margin-bottom: 5px;
+                        display: inline-block;
+                        color: #000;
+                        letter-spacing: 1px;
+                    }
+
+                    section-contact .noi-dung .form .input-form input {
+                        width: 100%;
+                        padding: 10px 20px;
+                        outline: none;
+                        border: 1px solid #000;
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                        color: #000;
+                        background: transparent;
+                        border-radius: 30px;
+                    }
+
+                        section-contact .noi-dung .form .input-form input[type="submit"] {
+                            background: peru;
+                            color: #fff;
+                            outline: none;
+                            border: none;
+                            font-weight: 500;
+                            cursor: pointer;
+                            box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+                        }
+
+                            section-contact .noi-dung .form .input-form input[type="submit"]:hover {
+                                background: #000;
+                            }
+
+                section-contact .noi-dung .form .nho-dang-nhap {
+                    margin-bottom: 10px;
+                    color: #000;
+                    font-size: 16px;
+                }
+
+                section-contact .noi-dung .form .input-form p {
+                    color: #000;
+                }
+
+                    section-contact .noi-dung .form .input-form p a {
+                        color: peru;
+                    }
+
+                section-contact .noi-dung .form h3 {
+                    color: #000;
+                    text-align: center;
+                    margin: 80px 0 10px;
+                    font-weight: 500;
+                }
+
+                section-contact .noi-dung .form .icon-dang-nhap {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    section-contact .noi-dung .form .icon-dang-nhap li {
+                        list-style: none;
+                        cursor: pointer;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li:nth-child(1) {
+                            color: #3b5999;
+                        }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li:nth-child(2) {
+                            color: #dd4b39;
+                        }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li:nth-child(3) {
+                            color: #55acee;
+                        }
+
+                        section-contact .noi-dung .form .icon-dang-nhap li i {
+                            font-size: 26px;
+                        }
+</style>
+<h4 style="color:red; text-align:center">@ViewBag.ThongBao</h4>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <section-contact>
+
+        <div class="img-bg">
+            <img src="~/Image/banner.jpg"
+                 alt="Hình Ảnh Minh Họa">
+        </div>
+
+        <div class="noi-dung">
+            <div class="form">
+                <h2> Đăng Nhập</h2>
+                <form action="">
+                    <div class="input-form">
+                        <span><b>Họ & Tên </b></span>
+                        <input type="text" name="TenDangNhap">
+                        @ViewData["loi1"]
+                    </div>
+                    <div class="input-form">
+                        <span><b>Mật Khẩu</b></span>
+                        <input type="password" name="MatKhau">
+                        @ViewData["loi2"]
+                    </div>
+                    <div class="nho-dang-nhap">
+                        <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" value="Đăng Nhập">
+                    </div>
+                    <div class="input-form">
+                        <p><i>Bạn Chưa Có Tài Khoản?</i> <a href=" @Url.Action("DangKy","NguoiDung")"><b>Đăng Ký</b></a></p>
+                    </div>
+                </form>
+                <h3>Đăng Nhập Bằng Mạng Xã Hội</h3>
+                <ul class="icon-dang-nhap">
+                    <li><i class="fa ti-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa ti-google" aria-hidden="true"></i></li>
+                    <li><i class="fa ti-twitter" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+
+    </section-contact>
+}
+    @*@using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <tr style="height:40px">
+            <td>Tên Đăng Nhập:</td>
+            <td>@Html.TextBox("TenDangNhap") @ViewData["loi1"]</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Mật Khẩu:</td>
+            <td>
+                @Html.Password("MatKhau")
+                @ViewData["loi2"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="submit" value="Đăng Nhập" />
+            </td>
+
+        </tr>
+    }
+    </table>
+    <p style="text-align:center"><a href="https://localhost:44321/nguoidung/dangky"><b>Đăng Ký Tài Khoản</b></a></p>*@
+
+

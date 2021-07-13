@@ -1,0 +1,22 @@
+﻿@model IEnumerable<TReEDeCor.Models.SANPHAM>
+@{
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+@*@foreach (var sp in Model)
+{
+    <div class="item">
+        <div class="col-md">
+            <div class="col-md spanimaition text-center">
+                <div class="card" style="width: 100%;">
+                    <img src="~/Image/IMG-PRODUCT/@sp.AnhSP" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@sp.TenSP</h5>
+                        <a href="@Url.Action("Chitietsanpham","PhroDuct", new { id = sp.MaSP })" class="btn btn-light btn-outline-dark">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}*@

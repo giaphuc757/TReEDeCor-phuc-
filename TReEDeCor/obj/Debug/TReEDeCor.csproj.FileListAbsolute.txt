@@ -1,0 +1,631 @@
+D:\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+D:\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+D:\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+D:\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+D:\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+D:\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+D:\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+D:\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+D:\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+D:\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+D:\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+D:\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+D:\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+D:\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+D:\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+D:\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+D:\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+D:\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+D:\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+D:\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+D:\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+D:\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+D:\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+D:\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+D:\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+D:\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+D:\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+D:\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+D:\DEs\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+D:\DEs\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+D:\DEs\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+D:\DEs\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+D:\DEs\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+D:\DEs\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DEs\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+D:\DEs\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+D:\DEs\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+D:\DEs\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+D:\DEs\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+D:\TReEDeCor1\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+D:\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+C:\Users\LENOVO\Downloads\New folder\BeginLab01\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+D:\FONTS\TReEDeCor (1)\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+D:\TReEDeCor\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TReEDeCor\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.AssemblyReference.cache
+D:\TReEDeCor\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+D:\TReEDeCor\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+D:\TReEDeCor\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+D:\TReEDeCor\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll.config
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\TReEDeCor.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\TReEDeCor.pdb
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\csc.exe.config
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\csc.rsp
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\csi.exe.config
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\csi.rsp
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.AppContext.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Console.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Http.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Net.Sockets.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.ValueTuple.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\vbc.exe.config
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\vbc.rsp
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Razor.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\WebGrease.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Helpers.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Mvc.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Optimization.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.Razor.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Deployment.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\System.Web.WebPages.Razor.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Newtonsoft.Json.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Antlr3.Runtime.pdb
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CoreCompileInputs.cache
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csproj.CopyComplete
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.pdb

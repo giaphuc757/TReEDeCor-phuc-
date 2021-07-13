@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @*<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">*@
+
+    @*<link href="~/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="~/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="~/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>*@
+
+
+    <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
+
+    <link href="~/font/font/themify-icons.css" rel="stylesheet" />
+
+    <link href="~/MyCSS/all.min.css" rel="stylesheet" />
+    <link href="~/MyCSS/LayoutPage.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url("/Image/body1.png");
+            background-attachment: fixed;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#tatqc").click(function () {
+                $(this).hide(300);
+                $("#picqc").hide(500);
+                $("#moqc").show(300);
+            });
+
+        });
+        $(document).ready(function () {
+            $("#moqc").click(function () {
+                $(this).hide(300);
+                $("#picqc").hide(500);
+                $("#qcnew").show(300);
+            });
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+    @Html.Action("Menu", "User")
+
+    @*<section id="headertop" class="top">
+            <hr width="100%" align="center" />
+            <div class="col-md-6  text-left">
+                <b> TReE'S Decor Land</b>
+                &nbsp;
+                <b>|</b>
+                &nbsp;
+                <b>Call me </b>
+            </div>
+
+            <div class="col-md-6  text-right">
+                <a href="https://localhost:44321/Cart/Cart"><i class="fas fa-dolly"></i>&nbsp;MyCart</a>
+                &nbsp;
+                <b> |</b>
+                &nbsp;
+                <a href="@Url.Action("TestDN","NguoiDung")"> <i class="far fa-user-circle"> &nbsp;Login</i> </a>
+                &nbsp;
+                <b> |</b>
+                &nbsp;
+                <i class="fas fa-phone-volume"> HOTLINE:</i>
+                <b>+843559673869</b>
+                <b> |</b>
+                <b>VN</b>
+            </div>
+            <div class="splitter"></div>
+        </section>
+
+        <div id="hd">
+            <div class="logodc">
+                <img src="~/Image/logo-removebg-preview.png" class="ico" />
+            </div>
+            @Html.Action("menu", "User")
+
+             đầu search
+            <div class="search-btn">
+                <i class=" search-ico ti-search">
+                </i>
+            </div>
+             cuối search
+        </div>*@
+    @Html.Action("Quangcao", "User")
+
+    <div class="tinmain">
+        <div class="row">
+            <div class="tin">
+                <h1> DOANH MỤC SẢN PHẨM  </h1>
+                &ensp;
+                &ensp;
+                <h1></h1>
+                &ensp;
+            </div>
+        </div>
+    </div>
+    <div class="tmain text-center">
+        &ensp;
+        &ensp;
+        &ensp;
+        &ensp;
+
+        <h1></h1>
+        TReE'S Decor
+        &ensp;
+        &ensp;
+        <h1></h1>
+        &ensp;
+    </div>
+
+    <section id="wap">
+        <div id="warpper">
+            <div class="doanhmucwarpper">
+                <div class="row">
+                    <div class="col-1">
+                    </div>
+                    @Html.Action("Doanhmucsanpham", "User")
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="tinmain3">
+
+        <div class="row">
+            <div class="col-1 text-right ">
+                <h2> </h2>
+            </div>
+            <div class="col-10 text-center ">
+                &ensp;
+                &ensp;
+                <h5>Nhà là gia đình - Cùng <b>TReE'S Decor</b> trải nghiệm những sản phẩm và dịch vụ đẳng cấp hàng đầu , cùng tô điểm Yêu thương cho gia đình!</h5>
+            </div>
+            <div class="col-1 text-left">
+                <h2></h2>
+            </div>
+
+
+        </div>
+    </div>
+
+    @*<div class="tinmain">
+            <div class="row">
+                <div class="tin text-center">
+                    <h1> SẢN PHẨM NỔI BẬC </h1>
+                </div>
+            </div>
+        </div>
+        <div class="tmain text-center">
+            <h2>_______________________</h2>
+            TReE'S Decor
+            &ensp;
+            &ensp;
+            <h1></h1>
+            &ensp;
+        </div>*@
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+        });
+    </script>
+    <div id="slider">
+        <div class="owl-carousel owl-theme">
+            @RenderBody()
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        });
+    </script>
+
+
+    <div class="tinmain">
+        <div class="row">
+            <div class="tin">
+                <h1>Chuyện TReE'S Decor</h1>
+            </div>
+        </div>
+    </div>
+    <div class="tmain text-center">
+        <h2>_______________________</h2>
+        TReE'S Decor
+        &ensp;
+        &ensp;
+        <h1></h1>
+        &ensp;
+
+    </div>
+    <section id="dmend">
+        <div class="row">
+            <div class="col-1 text-center">
+                <h2> <i class="fas fa-quote-left"></i></h2>
+            </div>
+            <div class="col-3">
+                <div class=" spanimaition text-center">
+                    <div class="card" style="width: 100%;">
+                        <img src="~/Image/DMPhroduct/main2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TReE'S Decor</h5>
+                            <a href="#" class="btn btn-light btn-outline-dark">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class=" spanimaition text-center">
+                    <div class="card" style="width: 100%;">
+                        <img src="~/Image/DMPhroduct/main1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TReE'S Decor</h5>
+                            <a href="#" class="btn btn-light btn-outline-dark">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class=" spanimaition text-center">
+                    <div class="card" style="width: 100%;">
+                        <img src="~/Image/DMPhroduct/main3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TReE'S Decor</h5>
+                            <a href="#" class="btn btn-light btn-outline-dark">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 text-center">
+                <h2><i class="fas fa-quote-right"></i></h2>
+            </div>
+        </div>
+    </section>
+    <section id="new">
+        <div class="row">
+            <div class=" col-1 new1">
+
+            </div>
+            <div class=" col-10 new2">
+
+            </div>
+            <div class=" col-1 new1">
+
+            </div>
+        </div>
+    </section>
+    <div class="tinmain">
+        <div class="row">
+            <div class="tin">
+                <h1>TIN TỨC & SỰ KIỆN</h1>
+            </div>
+        </div>
+    </div>
+    <div class="tmain text-center">
+        <h2>_______________________</h2>
+        TReE'S Decor
+        &ensp;
+        &ensp;
+        <h1>
+        </h1>
+        &ensp;
+    </div>
+
+
+    <section id="tintuc">
+        <div class="tintucstyle">
+            <div class="row">
+
+                <div class="col-2">
+                    <img src="~/Image/tintuc'.jpg "  />
+                </div>
+                <div class="col-4 ">
+                    <a href="/su-kien">
+                        <h4>
+                            <b> Hợp tác TReE'SDecor - Hội bạn bè các nhà nghề  decor My Home chính thức diễn ra vào ngày 15/05/2021 - 20/05/2021. </b>
+                            Sự kiện giao lưu học hỏi và hợp tác thương mại.
+                        </h4>
+
+                    </a>
+                    <h6>Sự kiện diễn ra trong 5 ngày tại Khách sạn LOLITA Center với sự góp mặt của các<b> thương hiệu decor lớn.</b> </h6>
+
+
+                </div>
+                <div class="col-2">
+                    <img src="~/Image/tintuc.jpg" />
+                </div>
+                <div class="col-4">
+                    <a href="/tin-tuc"> <h4><b>Mua sắm nội thất an toàn mùa dịch cùng Nội thất cao cấp TReE'S Decor tại tất cả các cơ sở tại Hà Nội và TP.Hồ Chí Minh.</b></h4> </a>
+                    <h6>
+                        Thực hiện nghiêm mọi quy tắt phòng chóng dịch <b>:"thông điệp 5K"</b>
+                        chủ động phun khử trùng , phòng chóng <b>Covid</b> tại mọi cơ sở . Nội thất TReE'S Decor sẽ mang......
+                    </h6>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="tinmain">
+        <div class="row">
+            <div class="tin">
+                <h1>Decor TReE'S</h1>
+            </div>
+        </div>
+    </div>
+    <div id="ft">
+        <div class="container-fluid justify-content-center">
+            <div class="row py-2">
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="card-body text-center ">
+                            <h2><b>Gửi thông tin liên hệ đến chúng tôi !</b></h2>
+                            <p class="pl-0 ml-0 mb-2">Ý tưởng của bạn là nguồn cảm hứng của chúng tôi ! Hãy để TReE'S Decor đến với bạn</p>
+                            <div class="row text-center justify-content-center">
+                                <div class="col-auto">
+                                    <div class="input-group-lg input-group mb-2 ">
+                                        <input type="text" class="form-control" placeholder="Nhập tài khoản gmail của bạn" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <div class="input-group-append"><button class="btn btn-dark" type="button" id="button-addon2"> <b>Gửi</b></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="splitter"></div>
+            @*<hr class="mx-0 px-0">*@
+            <footer>
+
+
+                <div class="row justify-content-center text-left">
+                    <div class="col-md-3 col-3 font-italic align-items-center mt-md-3 mt-4">
+                        <h5><b class="text-dark"> TReE'S<span class="text-muted"> DeCor</span></b></h5>
+                        <p class="social mt-md-3 mt-2">
+                            <span><i class="ti ti-facebook btn-info " aria-hidden="true"></i></span>
+                            <span><i class="ti ti-linkedin btn-outline-danger" aria-hidden="true"></i></span>
+                            <span><i class="ti ti-twitter btn-link" aria-hidden="true"></i></span>
+                        </p>
+                        <small class="copy-rights cursor-pointer">&#9400; 2021 Nội thất nâng tầm thế giới </small>
+                        <br>
+                        <small>Hãy tin dùng sản phẩm của TReE'SDeCor </small>
+                    </div>
+                    <div class="col-md-3 col-4 my-sm-0 mt-2">
+                        <ul class="list-unstyled  text-center">
+                            <li class="mt-md-3 mt-4"><b>SẢN PHẨM TReE's Decor</b></li>
+                            <li>Sopha da nhập khẩu</li>
+                            <li>Bàn trà hiện đại sang trọng</li>
+                            <li>Bàn ăn cổ điển ấm cúng</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-4 my-sm-0 mt-2">
+                        <ul class="list-unstyled text-center">
+                            <li class="mt-md-3 mt-4"><b>TIN TỨC</b></li>
+                            <li>Chăm sóc khách hàng</li>
+                            <li>Kiến thức Decor</li>
+                            <li>Liên hệ</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-auto col-md-3 col-4 my-sm-0 mt-5">
+                        <ul class="list-unstyled text-center">
+                            <li class="mt-md-3 mt-4"><b>NHÀ CUNG CẤP NỔI TIẾNG</b></li>
+                            <li>Lippy-Shopha</li>
+                            <li>Jessica-Italy</li>
+                            <li>Merin-Bỷ</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </footer>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @*<script src="~/Scripts/esm/popper.min.js"></script>*@
+    @*<script src="~/Scripts/jquery-3.4.1.min.js"></script>*@
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <div id="qcnew">
+
+        <a href="javascript:void(0)" id="tatqc" class="btn btn-none btn-outline-dark" style="color:white "> Đóng Quảng cáo ></a>
+        <a href="">
+            <img src="~/Image/quangcaonew.jpg" id="picqc" alt="" class="img-fluid" />
+        </a>
+        <a href="@Url.Action("Index","User")" id="moqc" class="btn btn-none btn-outline-dark" style="color:white "> Mở quảng cáo ^ </a>
+    </div>
+
+</body>
+</html>

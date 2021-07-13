@@ -1,0 +1,104 @@
+﻿@model IEnumerable<TReEDeCor.Models.LOAISANPHAM>
+@using TReEDeCor.Models
+<section id="headertop" class="top">
+
+    <hr width="100%" align="center" />
+
+    <div class="col-md-6 py-1 text-left">
+        <b> TReE'S Decor Land</b>
+        &nbsp;
+        <b>|</b>
+        &nbsp;
+        <b>Call me </b>
+    </div>
+
+    <div class="col-md-6 py-1 text-right">
+        @Html.Action("GiohangPartial", "Giohang")
+        &nbsp;
+        <b> |</b>
+        &nbsp;
+        <i class="far fa-user-circle"> </i>
+        <a href="@Url.Action("TestDN","NguoiDung")">
+
+            @{
+                var user = (NGUOIDUNG)Session["TaiKhoan"];
+
+                if (user != null)
+                {
+                    <a href="">@user.HoTen</a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Dangnhap","NguoiDung")">Đăng Nhập</a>
+                }
+            }
+
+        </a>
+        &nbsp;
+        <b> |</b>
+        &nbsp;
+        <i class="fas fa-phone-volume"> HOTLINE:</i>
+        <b>+843559673869</b>
+        <b> |</b>
+        <b>VN</b>
+    </div>
+
+    <div class="splitter"></div>
+
+</section>
+
+<div id="hd">
+    <!-- đầu nav -->
+    <div class="logodc">
+        <img src="~/Image/logotree.jpg" class="ico" />
+    </div>
+
+    <ul id="nav">
+        <li> <a class="activee" href="@Url.Action("Index","User")">TRANG CHỦ </a></li>
+        <li>
+            <a href="@Url.Action("Index","PhroDuct")">SẢN PHẨM</a>
+            <ul class="subnav">
+                @foreach (var m in Model)
+                {
+                    <li>
+                        <a href="@Url.Action("SPtheoloai","User", new { id = m.MaLoaiSP })">@m.TenLoaiSP</a>
+                    </li>
+
+                }
+            </ul>
+        </li>
+        <li>
+            <a href="#">SHOWROM</a>
+            @*<ul class="subnav">
+                    <li><a href="">A</a></li>
+                    <li><a href="">B</a></li>
+                    <li><a href="">C</a></li>
+                </ul>*@
+        </li>
+        <li>
+            <a href="#">KHÁCH HÀNG</a>
+            <ul class="subnav">
+                <li><a href="/bao-hanh-hau-mai">Bảo Hành - Hậu Mãi</a></li>
+                <li><a href="">Thực Tế - Khách Hàng</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/tin-tuc">TIN TỨC</a>
+            <ul class="subnav">
+                <li><a href="/su-kien">SỰ KIỆN</a></li>
+                <li><a href="">Khuyến Mãi</a></li>
+                <li><a href="">Kiến Thức nội thất</a></li>
+                <li><a href="/lien-he">LIÊN HỆ</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- đầu search -->
+    <div class="search-btn">
+        <i class=" search-ico ti-search">
+
+        </i>
+    </div>
+    <!-- cuối search -->
+</div>
+

@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+<table align="center">
+    <h2 style="text-align:center">Đăng Nhập</h2>
+    <h4 style="color:red; text-align:center">@ViewBag.ThongBao</h4>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <tr style="height:40px">
+            <td>Tên Đăng Nhập:</td>
+            <td>@Html.TextBox("TenDangNhap") @ViewData["loi1"]</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Mật Khẩu:</td>
+            <td>
+                @Html.Password("MatKhau")
+                @ViewData["loi2"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="submit" value="Đăng Nhập" />
+            </td>
+
+        </tr>
+    }
+</table>
+<p style="text-align:center"><a href="https://localhost:44321/nguoidung/dangky"><b>Đăng Ký Tài Khoản</b></a></p>
+
+<style>
+    #map {
+        width: 100%;
+        height: 400px;
+    }
+</style>
+
+<div id="map"></div>
+
+<script>
+    function initMap() {
+        var latlng = new google.maps.LatLng(10.802145, 106.714965); //Tọa độ cửa hàng
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: latlng,
+            zoom: 16 //Độ phóng to của bản đồ
+        });
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: "Your TitlABD" //Tên hiển thị khi đưa chuột vào địa điểm
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyWdb8Ov2wocff6CuQjGQ4-MCYyISe8Q4&callback=initMap">
+</script>
+

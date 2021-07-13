@@ -1,0 +1,342 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/_LayoutPhroduct.cshtml";
+}
+
+
+<style>
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        height: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    input {
+        outline: none;
+        border: none;
+    }
+
+        input[type="number"] {
+            -moz-appearance: textfield;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+
+            input[type="number"]::-webkit-outer-spin-button,
+            input[type="number"]::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+
+    textarea {
+        outline: none;
+        border: none;
+    }
+
+        textarea:focus, input:focus {
+            border-color: transparent !important;
+        }
+
+
+    button {
+        outline: none !important;
+        border: none;
+        background: transparent;
+    }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+    iframe {
+        border: none !important;
+    }
+    /*[ Contact ]*/
+    .container-contact100 {
+        width: 100%;
+        min-height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+        background: transparent;
+        position: relative;
+        z-index: -1;
+    }
+
+    .contact100-map {
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .wrap-contact100 {
+        width: 600px;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        height: 705px;
+    }
+
+    /* [ Title form ]*/
+    .contact100-form-title {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 64px 15px 64px 15px;
+    }
+
+    .contact100-form-title-1 {
+        font-family: Poppins-Bold;
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+    .contact100-form-title-2 {
+        font-family: Poppins-Regular;
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+
+    .contact100-form-title::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(54,84,99,0.7);
+    }
+    /* [ Form ]*/
+    .contact100-form {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 43px 88px 57px 190px;
+    }
+    /*[ Input ]*/
+    .wrap-input100 {
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid #b2b2b2;
+        margin-bottom: 26px;
+    }
+
+    .label-input100 {
+        font-family: Poppins-Regular;
+        font-size: 18px;
+        color: #808080;
+        line-height: 1.2;
+        text-align: right;
+        position: absolute;
+        top: 14px;
+        left: -105px;
+        width: 80px;
+    }
+
+
+    .input100 {
+        font-family: Poppins-Regular;
+        font-size: 18px;
+        color: #555555;
+        line-height: 1.2;
+        display: block;
+        width: 100%;
+        background: transparent;
+        padding: 0 5px;
+    }
+
+    .focus-input100 {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+    }
+
+        .focus-input100::before {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            -webkit-transition: all 0.6s;
+            -o-transition: all 0.6s;
+            -moz-transition: all 0.6s;
+            transition: all 0.6s;
+            background: #57b846;
+        }
+
+    input.input100 {
+        height: 45px;
+    }
+
+
+    textarea.input100 {
+        min-height: 115px;
+        padding-top: 14px;
+        padding-bottom: 13px;
+    }
+
+
+    .input100:focus + .focus-input100::before {
+        width: 100%;
+    }
+
+    .has-val.input100 + .focus-input100::before {
+        width: 100%;
+    }
+    /* [ Button ]*/
+    .container-contact100-form-btn {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 8px;
+    }
+
+    .contact100-form-btn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        min-width: 160px;
+        height: 50px;
+        background-color: peru;
+        border-radius: 25px;
+        font-family: Poppins-Regular;
+        font-size: 22px;
+        color: #fff;
+        line-height: 1.2;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+
+        .contact100-form-btn i {
+            -webkit-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            transition: all 0.4s;
+        }
+
+        .contact100-form-btn:hover {
+            background-color: #000;
+        }
+
+            .contact100-form-btn:hover i {
+                -webkit-transform: translateX(10px);
+                -moz-transform: translateX(10px);
+                -ms-transform: translateX(10px);
+                -o-transform: translateX(10px);
+                transform: translateX(10px);
+            }
+</style>
+
+<body>
+    <div class="container-contact100">
+        <div class="contact100-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4212567750174!2d106.78340691474968!3d10.855529592267873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fb58956eb4194d0!2zxJDhuqFpIEjhu41jIEh1dGVjaCBLaHUgRQ!5e0!3m2!1svi!2s!4v1625762241208!5m2!1svi!2s" width="1519" height="748" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="wrap-contact100">
+            <div class="contact100-form-title" style="background-image: url('https://file.hstatic.net/1000360516/file/mau-thiet-ke-noi-that-phong-khach-2020-a5_72507b671a344077a2d597f76f2f5d4f_grande.png')">
+                <span class="contact100-form-title-1">
+                    <b> Contact</b>
+                </span>
+
+                <span class="contact100-form-title-2">
+                    TREeS'DeCor xin đón nhận những ý kiến phản hồi từ bạn !<br />
+                    Hãy liên hện với chúng tôi.
+                </span>
+            </div>
+
+            <form class="contact100-form validate-form">
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <span class="label-input100"><b>Full Name:</b></span>
+                    <input class="input100" type="text" name="name" placeholder="Enter full name">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <span class="label-input100"><b>Email</b>:</span>
+                    <input class="input100" type="text" name="email" placeholder="Enter email addess">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                    <span class="label-input100"><b>Phone:</b></span>
+                    <input class="input100" type="text" name="phone" placeholder="Enter phone number">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                    <span class="label-input100"><b>Message:</b></span>
+                    <textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        <span>
+                            <b>Submit</b>
+                            <i class="fa ti-arrow-right m-l-7" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
