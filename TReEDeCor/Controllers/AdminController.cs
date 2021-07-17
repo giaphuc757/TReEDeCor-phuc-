@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using TReEDeCor.Models;
+using PagedList;
+using PagedList.Mvc;
 
 namespace TReEDeCor.Controllers
 {
@@ -44,6 +46,96 @@ namespace TReEDeCor.Controllers
                     ViewBag.ThongBao = "Tên Đăng Nhập Hoặc Tài Khoản Không Đúng";
             
             return View();
+        }
+
+
+        ///////////////////////////////////
+        public ActionResult Product()
+        {
+            return View(db.SANPHAMs.ToList());
+        }
+
+        public ActionResult Details(int id)
+        {
+            if (Session["TKAdmin"] == null)
+            {
+                return RedirectToAction("Login", "Admin");
+            }
+            else
+            {
+                var sanpham = from SANPHAM in db.SANPHAMs where SANPHAM.MaSP == id select SANPHAM;
+                return View(sanpham.SingleOrDefault());
+            }
+        }
+        [HttpGet]
+        public ActionResult Create()
+        {
+            if (Session["TKAdmin"] == null)
+            {
+                return RedirectToAction("Login", "Admin");
+            }
+            else
+                return View();
+        }
+        [HttpPost]
+        public ActionResult Create(SANPHAM sanpham)
+        {
+            if (Session["TKAdmin"] == null)
+            {
+                return RedirectToAction("Login", "Admin");
+            }
+            else
+            {
+                db.SANPHAMs.InsertOnSubmit(sanpham);
+                db.SubmitChanges();
+
+                return View("Index","Admin");
+            }
+        }
+
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            if (Session["TKAdmin"] == null)
+            {
+                return RedirectToAction("Login", "Admin");
+            }
+            else
+            {
+                var sanpham = from SANPHAM in db.SANPHAMs where SANPHAM.MaSP == id select SANPHAM;
+                return View(sanpham.SingleOrDefault());
+            }
+        }
+        [HttpPost, ActionName("Edit")]
+        public ActionResult capnhat(int id)
+        {
+            SANPHAM sanpham = db.SANPHAMs.Where(n => n.MaSP == id).SingleOrDefault();
+            UpdateModel(sanpham);
+            db.SubmitChanges();
+            return RedirectToAction("Index", "Admin");
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            if (Session["TKAdmin"] == null)
+            {
+                return RedirectToAction("Login", "Admin");
+            }
+            else
+            {
+                var sanpham = from SANPHAM in db.SANPHAMs where SANPHAM.MaSP == id select SANPHAM;
+                return View(sanpham.SingleOrDefault());
+            }
+        }
+        [HttpPost, ActionName("Delete")]
+        public ActionResult xoasp(int id)
+        {
+            SANPHAM sanpham = db.SANPHAMs.Where(n => n.MaSP == id).SingleOrDefault();
+            db.SANPHAMs.DeleteOnSubmit(sanpham);
+            db.SubmitChanges();
+            return RedirectToAction("Index", "Admin");
         }
     }
 }

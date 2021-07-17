@@ -1,42 +1,115 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>admin</title>
+    <link rel="stylesheet" href="~/assets/style.css">
+    <link rel="stylesheet" href="~/assets/font/themify-icons/themify-icons.css">
+    <!-- <link rel="stylesheet" href="./assets/jscript.js"> -->
 </head>
+
+
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+    <section id="sidebar">
+        <div class="white-label">
+        </div>
+        <div id="sidebar-nav">
+            <ul>
+                <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                <li>@Html.ActionLink("Sản Phẩm", "Product","Admin")</li>
+                <li><a href="#"><i class="fa ti-money"></i> doanh thu</a></li>
+                <li><a href="#"><i class="fa ti-pencil-alt"></i> My Blog</a></li>
+                <li><a href="#"><i class="fa ti-stats-up"></i> mức độ tăng</a></li>
+
+                <li><a href="#"><i class="fa ti-comments"></i>lượt bình luận</a></li>
+                <li><a href="#"><i class="fa ti-map"></i> giao thông -bản đồ</a></li>
+                <li><a href="#"><i class="fa ti-user"></i> nhân viên</a></li>
+                <li><a href="#"><i class="fa ti-calendar"></i>đặt trước</a></li>
+
+            </ul>
+        </div>
+    </section>
+    <section id="content">
+        <div id="header">
+            <div class="header-nav">
+                <div class="menu-button">
+
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="nav-settings">
+                            <div class="font-icon"><i class="fa ti-layout-cta-btn-left"></i></div>
+                        </li>
+                        <li class="nav-mail">
+                            <div class="font-icon"><i class="fa ti-email"></i></div>
+                        </li>
+                        <li class="nav-calendar">
+                            <div class="font-icon"><i class="fa ti-calendar"></i></div>
+                        </li>
+                        <li class="nav-chat">
+                            <div class="font-icon"><i class="fa ti-comment"></i></div>
+                        </li>
+                        <li class="nav-profile">
+                            <div class="nav-profile-image">
+                                <img src="~/assets/img/thuhop.jpg.jpg" alt="profile-img" alt="profile image">
+                                <div class="nav-profile-name">login<i class="fa ti-power-off"></i></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+        <div class="content">
+            <div class="content-header">
+                <h1><b>Dashboard</b></h1>
+                <p>
+                    <b>welcome admin</b>
+                </p>
+            </div>
+            @RenderBody()
+            @*<div class="widget-box sample-widget">
+            <div class="widget-header">
+                <h2>bản đồ</h2>
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="widget-content">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/87118/sample-data-1.png">
+            </div>
+        </div>
+        <div class="widget-box sample-widget">
+            <div class="widget-header">
+                <h2>bản đồ</h2>
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="widget-content">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/87118/sample-data-1.png">
+            </div>
+        </div>
+        <div class="widget-box sample-widget">
+            <div class="widget-header">
+                <h2>bản đồ</h2>
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="widget-content">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/87118/sample-data-1.png">
+            </div>
+        </div>
+        <div class="widget-box sample-widget">
+            <div class="widget-header">
+                <h2>bản đồ</h2>
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="widget-content">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/87118/sample-data-1.png">
+            </div>
+        </div>*@
+        </div>
+    </section>
 
+    
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>

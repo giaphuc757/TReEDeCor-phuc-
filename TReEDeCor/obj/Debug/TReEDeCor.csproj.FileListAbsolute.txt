@@ -611,3 +611,7 @@ C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\Syst
 C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Numerics.Vectors.dll
 C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\obj\Debug\TReEDeCor.csprojAssemblyReference.cache
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\PagedList.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\PagedList.Mvc.dll
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\PagedList.xml
+C:\Users\giaph\OneDrive\Máy tính\Do-An_web\TReEDeCor\TReEDeCor\bin\PagedList.Mvc.xml
