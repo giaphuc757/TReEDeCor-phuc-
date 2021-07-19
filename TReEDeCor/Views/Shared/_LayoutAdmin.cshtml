@@ -7,6 +7,9 @@
     <title>admin</title>
     <link rel="stylesheet" href="~/assets/style.css">
     <link rel="stylesheet" href="~/assets/font/themify-icons/themify-icons.css">
+
+    @*<script src="~/tinymce/js/tinymce/jquery.tinymce.min.js"></script>
+        <script>tinymce.init({ seclector: 'textarae' });</script>*@
     <!-- <link rel="stylesheet" href="./assets/jscript.js"> -->
 </head>
 
@@ -17,16 +20,18 @@
         </div>
         <div id="sidebar-nav">
             <ul>
-                <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-                <li>@Html.ActionLink("Sản Phẩm", "Product","Admin")</li>
-                <li><a href="#"><i class="fa ti-money"></i> doanh thu</a></li>
-                <li><a href="#"><i class="fa ti-pencil-alt"></i> My Blog</a></li>
+                @*<li class="active"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>*@
+                <li>@Html.ActionLink("Sản Phẩm", "Index", "SanPham")</li>
+                @*<li><a href="#"><i class="fa ti-money"></i> doanh thu</a></li>*@
+                <li>@Html.ActionLink("Nhà Cung Cấp", "Index", "NhaCungCap")</li>
+                <li>@Html.ActionLink("Loại Sản Phẩm", "Index", "LoaiSanPham")</li>
+                @*<li><a href="#"><i class="fa ti-pencil-alt"></i> My Blog</a></li>
                 <li><a href="#"><i class="fa ti-stats-up"></i> mức độ tăng</a></li>
 
                 <li><a href="#"><i class="fa ti-comments"></i>lượt bình luận</a></li>
                 <li><a href="#"><i class="fa ti-map"></i> giao thông -bản đồ</a></li>
                 <li><a href="#"><i class="fa ti-user"></i> nhân viên</a></li>
-                <li><a href="#"><i class="fa ti-calendar"></i>đặt trước</a></li>
+                <li><a href="#"><i class="fa ti-calendar"></i>đặt trước</a></li>*@
 
             </ul>
         </div>
@@ -61,13 +66,13 @@
                 </div>
             </div>
         </div>
-        <div class="content">
+        @*<div class="content">
             <div class="content-header">
                 <h1><b>Dashboard</b></h1>
                 <p>
                     <b>welcome admin</b>
                 </p>
-            </div>
+            </div>*@
             @RenderBody()
             @*<div class="widget-box sample-widget">
             <div class="widget-header">

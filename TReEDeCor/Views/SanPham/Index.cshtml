@@ -1,0 +1,106 @@
+﻿@using TReEDeCor.Models
+@using PagedList.Mvc;
+@model PagedList.IPagedList<TReEDeCor.Models.SANPHAM>
+
+@*@model IEnumerable<TReEDeCor.Models.SANPHAM>*@
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:100px">Mã Loại Sản Phẩm</th>
+        <th style="width:100px">Mã Nhà Cung Cấp</th>
+        <th style="width:200px">Tên Sản Phẩm</th>
+        <th style="width:100px">Giá Bán</th>
+        <th style="width:300px">Mô Tả</th>
+        <th style="width:200px">Ảnh Sản Phẩm</th>
+        <th style="width:100px">Ngày Cập Nhật</th>
+        <th style="width:100px">Số Lượng Tồn Kho</th>
+        <th style="width:100px">Trạng Thái</th>
+        <th style="width:100px">Mã Loại Sản Phẩm</th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.MaLoaiSP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNCC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Giaban)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnhSP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngaycapnhat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Soluongton)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrangThai)
+            </th>
+            <th></th>*@
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaLoaiSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNCC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mota)
+            </td>
+            <td>
+                <img src="@Url.Content("~/Image/IMG-PRODUCT/"+ item.AnhSP)" />
+                @*@Html.DisplayFor(modelItem => item.AnhSP)*@
+            </td>
+            <td>
+                @String.Format("{0:dd/MM/yyyy}", item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)W
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrangThai)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaSP }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaSP }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaSP })
+            </td>
+        </tr>
+    }
+</table>
+    Trang @(Model.PageCount < Model.PageNumber ? 0: Model.PageNumber)/@Model.PageCount
+    <div class="MenuTrang">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>

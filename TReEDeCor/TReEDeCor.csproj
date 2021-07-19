@@ -132,8 +132,11 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\GiohangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoaiSanPhamController.cs" />
     <Compile Include="Controllers\NguoiDungController.cs" />
+    <Compile Include="Controllers\NhaCungCapController.cs" />
     <Compile Include="Controllers\PhroDuctController.cs" />
+    <Compile Include="Controllers\SanPhamController.cs" />
     <Compile Include="Controllers\SuKienController.cs" />
     <Compile Include="Controllers\TinTucController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -1311,11 +1314,21 @@
     <Content Include="webfonts\fa-solid-900.ttf" />
     <Content Include="webfonts\fa-solid-900.woff" />
     <Content Include="webfonts\fa-solid-900.woff2" />
-    <Content Include="Views\Admin\Product.cshtml" />
-    <Content Include="Views\Admin\Details.cshtml" />
-    <Content Include="Views\Admin\Create.cshtml" />
-    <Content Include="Views\Admin\Edit.cshtml" />
-    <Content Include="Views\Admin\Delete.cshtml" />
+    <Content Include="Views\NhaCungCap\Index.cshtml" />
+    <Content Include="Views\NhaCungCap\Details.cshtml" />
+    <Content Include="Views\NhaCungCap\Create.cshtml" />
+    <Content Include="Views\NhaCungCap\Edit.cshtml" />
+    <Content Include="Views\NhaCungCap\Delete.cshtml" />
+    <Content Include="Views\LoaiSanPham\Index.cshtml" />
+    <Content Include="Views\LoaiSanPham\Details.cshtml" />
+    <Content Include="Views\LoaiSanPham\Create.cshtml" />
+    <Content Include="Views\LoaiSanPham\Edit.cshtml" />
+    <Content Include="Views\LoaiSanPham\Delete.cshtml" />
+    <Content Include="Views\SanPham\Index.cshtml" />
+    <Content Include="Views\SanPham\Create.cshtml" />
+    <Content Include="Views\SanPham\Edit.cshtml" />
+    <Content Include="Views\SanPham\Delete.cshtml" />
+    <Content Include="Views\SanPham\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

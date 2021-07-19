@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TReEDeCor.Models.NHACUNGCAP>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenNCC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Diachi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenNCC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Diachi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DienThoai)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaNCC }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaNCC }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaNCC })
+        </td>
+    </tr>
+}
+
+</table>
