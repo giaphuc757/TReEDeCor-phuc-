@@ -48,7 +48,7 @@ namespace TReEDeCor.Controllers
                 return RedirectToAction("Login", "Admin");
             }
             else
-                ViewBag.MaLoaiSP = new SelectList(db.LOAISANPHAMs.ToList().OrderBy(n => n.TenLoaiSP), "MaLoaiSP", "TenLoaiSP");
+            ViewBag.MaLoaiSP = new SelectList(db.LOAISANPHAMs.ToList().OrderBy(n => n.TenLoaiSP), "MaLoaiSP", "TenLoaiSP");
             ViewBag.MaNCC = new SelectList(db.NHACUNGCAPs.ToList().OrderBy(n => n.TenNCC), "MaNCC", "TenNCC");
             return View();
         }
@@ -118,12 +118,14 @@ namespace TReEDeCor.Controllers
                             spUpdate.AnhSP = fileName;
                         }
                     }
-
-                    //mình demo 2 cái thôi còn lại tự thêm vào
+                    spUpdate.MaLoaiSP = sanpham.MaLoaiSP;
+                    spUpdate.MaNCC = sanpham.MaNCC;
                     spUpdate.TenSP = sanpham.TenSP;
+                    spUpdate.Giaban = sanpham.Giaban;
+                    spUpdate.Mota = sanpham.Mota;
+                    spUpdate.Ngaycapnhat = sanpham.Ngaycapnhat;
+                    spUpdate.Soluongton = sanpham.Soluongton;
                     spUpdate.TrangThai = sanpham.TrangThai;
-
-
                     UpdateModel(spUpdate);
                     db.SubmitChanges();
                 }

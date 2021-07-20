@@ -12,14 +12,6 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.MaNCC)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.MaNCC)
-        </dd>
-
-        <dt>
             @Html.DisplayNameFor(model => model.TenLoaiSP)
         </dt>
 
@@ -32,7 +24,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.AnhLoaiSP)
+            <img src="@Url.Content("~/Image/IMG-PRODUCT/" +Model.AnhLoaiSP)" width="120" />
         </dd>
 
         <dt>

@@ -1288,8 +1288,6 @@ namespace TReEDeCor.Models
 		
 		private int _MaLoaiSP;
 		
-		private System.Nullable<int> _MaNCC;
-		
 		private string _TenLoaiSP;
 		
 		private string _AnhLoaiSP;
@@ -1304,8 +1302,6 @@ namespace TReEDeCor.Models
     partial void OnCreated();
     partial void OnMaLoaiSPChanging(int value);
     partial void OnMaLoaiSPChanged();
-    partial void OnMaNCCChanging(System.Nullable<int> value);
-    partial void OnMaNCCChanged();
     partial void OnTenLoaiSPChanging(string value);
     partial void OnTenLoaiSPChanged();
     partial void OnAnhLoaiSPChanging(string value);
@@ -1336,26 +1332,6 @@ namespace TReEDeCor.Models
 					this._MaLoaiSP = value;
 					this.SendPropertyChanged("MaLoaiSP");
 					this.OnMaLoaiSPChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaNCC", DbType="Int")]
-		public System.Nullable<int> MaNCC
-		{
-			get
-			{
-				return this._MaNCC;
-			}
-			set
-			{
-				if ((this._MaNCC != value))
-				{
-					this.OnMaNCCChanging(value);
-					this.SendPropertyChanging();
-					this._MaNCC = value;
-					this.SendPropertyChanged("MaNCC");
-					this.OnMaNCCChanged();
 				}
 			}
 		}

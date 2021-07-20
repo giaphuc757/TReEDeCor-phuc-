@@ -57,7 +57,6 @@
   <Table Name="dbo.LOAISANPHAM" Member="LOAISANPHAMs">
     <Type Name="LOAISANPHAM">
       <Column Name="MaLoaiSP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="MaNCC" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="TenLoaiSP" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
       <Column Name="AnhLoaiSP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="Mota" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using TReEDeCor.Models;
+using System.IO;
 
 namespace TReEDeCor.Controllers
 {
@@ -43,19 +44,22 @@ namespace TReEDeCor.Controllers
                 return View();
         }
         [HttpPost]
-        public ActionResult Create(LOAISANPHAM loaisp)
+        public ActionResult Create(LOAISANPHAM loaisp, HttpPostedFileBase fileUp)
         {
-            if (Session["TKAdmin"] == null)
+            var fileName = Path.GetFileName(fileUp.FileName);
+            var path = Path.Combine(Server.MapPath("/Image/IMG-PRODUCT/"), fileName);
+            if (System.IO.File.Exists(path))
             {
-                return RedirectToAction("Login", "Admin");
+                ViewBag.ThongBao = "Hình Đã Tồn Tại!";
             }
             else
             {
-                db.LOAISANPHAMs.InsertOnSubmit(loaisp);
-                db.SubmitChanges();
-
-                return View("Index", "Admin");
+                fileUp.SaveAs(path);
+                loaisp.AnhLoaiSP = fileName;
             }
+            db.LOAISANPHAMs.InsertOnSubmit(loaisp);
+            db.SubmitChanges();
+            return RedirectToAction("Index", "LoaiSanPham");
         }
 
 
@@ -73,13 +77,40 @@ namespace TReEDeCor.Controllers
             }
         }
         [HttpPost, ActionName("Edit")]
-        public ActionResult capnhat(int id)
+        [ValidateInput(false)]
+        public ActionResult capnhat(LOAISANPHAM loaisp, HttpPostedFileBase fileUp)
         {
-            LOAISANPHAM loaisp = db.LOAISANPHAMs.Where(n => n.MaLoaiSP == id).SingleOrDefault();
-            UpdateModel(loaisp);
-            db.SubmitChanges();
-            return RedirectToAction("Index", "Admin");
-        }
+            if (ModelState.IsValid)
+            {
+                //tim kiem xem có sp đó trong db hay không? nếu có mình mới update
+                LOAISANPHAM spUpdate = db.LOAISANPHAMs.SingleOrDefault(p => p.MaLoaiSP == loaisp.MaLoaiSP);
+
+                if (spUpdate != null)
+                {
+                    if (fileUp != null)
+                    {
+                        var fileName = Path.GetFileName(fileUp.FileName);
+                        var path = Path.Combine(Server.MapPath("~/Image/IMG-PRODUCT/"), fileName);
+                        if (System.IO.File.Exists(path))
+                        {
+                            TempData["Error"] = "Hình Đã Tồn Tại!";
+                            return RedirectToAction("Edit", new { id = loaisp.MaLoaiSP });
+                        }
+                        else
+                        {
+                            fileUp.SaveAs(path);
+                            spUpdate.AnhLoaiSP = fileName;
+                        }
+                    }
+                    spUpdate.TenLoaiSP = loaisp.TenLoaiSP;
+                    spUpdate.AnhLoaiSP = loaisp.AnhLoaiSP;
+                    spUpdate.Mota = loaisp.Mota;
+                    UpdateModel(spUpdate);
+                    db.SubmitChanges();
+                }
+            }
+            return RedirectToAction("Index", "LoaiSanPham");
+        } 
 
         [HttpGet]
         public ActionResult Delete(int id)
@@ -100,7 +131,7 @@ namespace TReEDeCor.Controllers
             LOAISANPHAM loaisp = db.LOAISANPHAMs.Where(n => n.MaLoaiSP == id).SingleOrDefault();
             db.LOAISANPHAMs.DeleteOnSubmit(loaisp);
             db.SubmitChanges();
-            return RedirectToAction("Index", "Admin");
+            return RedirectToAction("Index", "LoaiSanPham");
         }
     }
 }

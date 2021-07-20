@@ -10,9 +10,13 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+<table class="table" border="1">
     <tr>
-        <th>
+        <th style="width:200px">Tên Loại Sản Phẩm</th>
+        <th style="width:100px">Ảnh Loại Sản Phẩm</th>
+        <th style="width:300px">Mô Tả</th>
+        <th></th>
+        @*<th>
             @Html.DisplayNameFor(model => model.MaNCC)
         </th>
         <th>
@@ -23,20 +27,18 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Mota)
-        </th>
+        </th>*@
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.MaNCC)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.TenLoaiSP)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AnhLoaiSP)
+            <img src="@Url.Content("~/Image/IMG-PRODUCT/" + item.AnhLoaiSP)" />
+            @*@Html.DisplayFor(modelItem => item.AnhLoaiSP)*@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Mota)

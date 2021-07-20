@@ -6,24 +6,20 @@
 }
 
 <h2>Edit</h2>
-
-@using (Html.BeginForm())
+    if (ViewBag.Message != null)
+    {
+        <p style="color:red">@ViewBag.Message</p>
+    }
+@using (Html.BeginForm("Edit", "LoaiSanPham", FormMethod.Post, new { @enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>LOAISANPHAM</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.MaLoaiSP)
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.MaNCC, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.MaNCC, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.MaNCC, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.TenLoaiSP, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -36,8 +32,9 @@
         <div class="form-group">
             @Html.LabelFor(model => model.AnhLoaiSP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.AnhLoaiSP, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.AnhLoaiSP, "", new { @class = "text-danger" })
+                <input type="file" name="fileUp" id="fileUp" />
+                <img id="preview" src="#" width="150" height="100" class="hidden" />
+                <img src="@Url.Content("~/Image/IMG-PRODUCT/" +Model.AnhLoaiSP)"/>(Ảnh hiện tại)
             </div>
         </div>
 
@@ -60,3 +57,13 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+
+<script>
+    fileUp.onchange = evt => {
+        const [file] = fileUp.files
+        if (file) {
+            preview.src = URL.createObjectURL(file);
+            $("#preview").removeClass("hidden");
+        }
+    }
+</script>

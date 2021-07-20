@@ -21,9 +21,8 @@
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.MaSP)
-
         @*<div class="form-group">
-                @Html.LabelFor(model => model.MaSP, htmlAttributes: new { @class = "control-label col-md-2" })
+                <h4>Mã Sản Phâm</h4>
                 <div class="col-md-10">
                     <div style="font=18px; padding:5px 0 0 5px">@Model.MaSP</div>
                 </div>
@@ -69,11 +68,9 @@
         <div class="form-group">
             @Html.LabelFor(model => model.AnhSP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @*@Html.EditorFor(model => model.AnhSP, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.AnhSP, "", new { @class = "text-danger" })*@
                 <input type="file" name="fileUp" id="fileUp" />
-                <img src="@Url.Content("~/Image/IMG-PRODUCT/" +Model.AnhSP)" width="120" />(Ảnh hiện tại)
-                @ViewBag.ThongBao
+                <img id="preview" src="#" width="150" height="100" class="hidden" />
+                <img src="@Url.Content("~/Image/IMG-PRODUCT/" +Model.AnhSP)"/>(Ảnh hiện tại)
             </div>
         </div>
 
@@ -112,3 +109,13 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+
+<script>
+    fileUp.onchange = evt => {
+        const [file] = fileUp.files
+        if (file) {
+            preview.src = URL.createObjectURL(file);
+            $("#preview").removeClass("hidden");
+        }
+    }
+</script>

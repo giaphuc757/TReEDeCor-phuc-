@@ -7,7 +7,7 @@
 
 <h2>Create</h2>
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm("Create", "LoaiSanPham", FormMethod.Post, new { @enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
     
@@ -15,13 +15,6 @@
         <h4>LOAISANPHAM</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.MaNCC, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.MaNCC, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.MaNCC, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.TenLoaiSP, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -34,8 +27,10 @@
         <div class="form-group">
             @Html.LabelFor(model => model.AnhLoaiSP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.AnhLoaiSP, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.AnhLoaiSP, "", new { @class = "text-danger" })
+               <div class="col-md-10">
+                    <input type="file" name="fileUp" id="fileUp" />
+                    <img id="preview" src="#" width="150" height="100" class="hidden" />
+                </div>
             </div>
         </div>
 
@@ -58,3 +53,13 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+@*Show ảnh vừa thêm*@
+<script>
+    fileUp.onchange = evt => {
+        const [file] = fileUp.files
+        if (file) {
+            preview.src = URL.createObjectURL(file);
+            $("#preview").removeClass("hidden");
+        }
+    }
+</script>
