@@ -69,7 +69,7 @@
             @Html.LabelFor(model => model.AnhSP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 <input type="file" name="fileUp" id="fileUp" />
-                <img id="preview" src="#" width="150" height="100" class="hidden" />
+                <img id="preview" src="#" width="150" height="100" style="visibility:hidden" />
                 <img src="@Url.Content("~/Image/IMG-PRODUCT/" +Model.AnhSP)"/>(Ảnh hiện tại)
             </div>
         </div>
@@ -115,7 +115,8 @@
         const [file] = fileUp.files
         if (file) {
             preview.src = URL.createObjectURL(file);
-            $("#preview").removeClass("hidden");
+            var img = document.getElementById('preview');
+            img.style.visibility = 'visible';
         }
     }
 </script>

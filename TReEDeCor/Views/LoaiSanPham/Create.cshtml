@@ -29,7 +29,7 @@
             <div class="col-md-10">
                <div class="col-md-10">
                     <input type="file" name="fileUp" id="fileUp" />
-                    <img id="preview" src="#" width="150" height="100" class="hidden" />
+                    <img id="preview" src="#" width="150" height="100" style = "visibility:hidden" />
                 </div>
             </div>
         </div>
@@ -59,7 +59,8 @@
         const [file] = fileUp.files
         if (file) {
             preview.src = URL.createObjectURL(file);
-            $("#preview").removeClass("hidden");
+            var img = document.getElementById('preview');
+            img.style.visibility = 'visible';
         }
     }
 </script>

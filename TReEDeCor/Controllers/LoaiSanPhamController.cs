@@ -103,7 +103,6 @@ namespace TReEDeCor.Controllers
                         }
                     }
                     spUpdate.TenLoaiSP = loaisp.TenLoaiSP;
-                    spUpdate.AnhLoaiSP = loaisp.AnhLoaiSP;
                     spUpdate.Mota = loaisp.Mota;
                     UpdateModel(spUpdate);
                     db.SubmitChanges();
